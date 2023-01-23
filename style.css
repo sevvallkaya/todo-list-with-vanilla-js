@@ -1,0 +1,119 @@
+body {
+  font-family: "Sofia Sans", sans-serif;
+  background-color: burlywood;
+}
+
+h3,
+h1 {
+  font-family: "Shadows Into Light", cursive;
+}
+
+.container {
+  display: block;
+  width: 400px;
+  margin: 100px auto 0;
+}
+
+.add {
+  margin: 40px;
+}
+li {
+  list-style: none;
+  clear: both;
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+li > input[type="text"] {
+  width: 226px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  color: rgb(92, 1, 1);
+  background-color: burlywood;
+  font-family: "sofia sans", sans serif;
+  margin: 10px 0 0;
+  font-size: 13px;
+}
+
+input[type="text"] {
+  width: 200px;
+  padding: 10px;
+  margin: 3px 0;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 6px;
+  color: rgb(67, 62, 62);
+}
+
+input[type="text"]:hover {
+  border-color: rgb(207, 118, 9);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#new-task {
+  width: 250px;
+}
+input[type="checkbox"] {
+  transform: scale(1.3);
+  margin: 0 5px;
+}
+label[for="complete"] {
+  display: inline-block;
+  width: 240px;
+  margin-left: 5px;
+  text-decoration: line-through;
+}
+
+.edit {
+  margin-left: 5px;
+}
+
+.edit:hover {
+  color: rgb(81, 81, 167);
+}
+.delete:hover {
+  color: red;
+}
+.add:hover {
+  color: rgb(34, 191, 34);
+}
+
+li > input[type="checkbox"] {
+  margin: 0 10px;
+}
+
+li > label {
+  font-size: 18px;
+  width: 237px;
+  padding: 0 0 0 11px;
+  color: rgb(155, 50, 50);
+}
+li > input[type="text"] {
+  width: 170px;
+  margin-left: 10px;
+}
+.completed label {
+  text-decoration: line-through;
+  color: #888;
+}
+
+ul li input[type="text"] {
+  display: none;
+}
+
+ul li.editMode input[type="text"] {
+  display: inline-block;
+  width: 200px;
+}
+
+ul li.editMode label {
+  display: none;
+}
